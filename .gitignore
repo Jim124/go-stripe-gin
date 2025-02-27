@@ -1,6 +1,7 @@
 *.o
 *.a
 *.so
+*.env
 
 _obj
 _test
