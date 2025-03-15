@@ -19,5 +19,5 @@ func main() {
 	port := os.Getenv("PORT")
 	gin.SetMode(gin.DebugMode)
 	server := gin.Default()
-	server.Run(fmt.Sprintf("localhost:%s", port))
+	server.Run(fmt.Sprintf(":%s", port))
 }
